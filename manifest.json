@@ -1,0 +1,92 @@
+{
+  "manifest_version": 3,
+  "name": "TEMU助手",
+  "description": "TEMU助手 - 自动化提高生产效率",
+  "version": "3.4.1",
+  "background": {
+    "service_worker": "/background.js"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {},
+  "host_permissions": [
+    "*://124.71.2.127:8888/",
+    "*://*.kuajingmaihuo.com/",
+    "*://*.temu.com/",
+    "*://*.aliexpress.com/",
+    "*://*.alicdn.com/",
+    "*://*.amazon.com/",
+    "*://*.shein.com/",
+    "*://*.geiwohuo.com/",
+    "*://*.ltwebstatic.com/",
+    "*://*.xlwms.com/",
+    "*://*.rqlis.com/",
+    "*://*.usps.com/"
+  ],
+  "permissions": [
+    "cookies",
+    "notifications",
+    "tabs",
+    "scripting",
+    "webRequest",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "declarativeNetRequestFeedback",
+    "activeTab",
+    "fileSystemProvider"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.aliexpress.com/item/*",
+        "*://*.amazon.com/*",
+        "*://*.shein.com/*"
+      ],
+      "js": [
+        "/content.js"
+      ]
+    },
+    {
+      "matches": [
+        "*://*.kuajingmaihuo.com/*"
+      ],
+      "js": [
+        "/js/temuSellerContent.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "js/download.js",
+        "js/jszip.min.js",
+        "js/FileSaver.js"
+      ],
+      "matches": [
+        "*://*.aliexpress.com/*",
+        "*://*.amazon.com/*",
+        "*://*.shein.com/*"
+      ]
+    },
+    {
+      "resources": [
+        "js/temuSeller.js"
+      ],
+      "matches": [
+        "*://*.kuajingmaihuo.com/*"
+      ]
+    }
+  ]
+}

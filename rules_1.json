@@ -1,0 +1,369 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com/main/order-manage"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||seller.kuajingmaihuo.com"
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://www.temu.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://www.temu.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||www.temu.com"
+        }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://www.aliexpress.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://www.aliexpress.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||aeproductsourcesite.alicdn.com"
+        }
+    },
+    {
+        "id": 4,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://seller.kuajingmaihuo.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||file.kuajingmaihuo.com"
+        }
+    },
+    {
+        "id": 5,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://sso.geiwohuo.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://sso.geiwohuo.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||sso.geiwohuo.com"
+        }
+    },
+    {
+        "id": 6,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://csp.aliexpress.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://csp.aliexpress.com/"
+                },
+                {
+                    "header": "Sec-Fetch-Site",
+                    "operation": "set",
+                    "value": "same-site"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||aliexpress.com"
+        }
+    },
+    {
+        "id": 7,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://img.ltwebstatic.com"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://img.ltwebstatic.com"
+                },
+                {
+                    "header": "Sec-Fetch-Mode",
+                    "operation": "set",
+                    "value": "no-cors"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||img.ltwebstatic.com"
+        }
+    },
+    {
+        "id": 8,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://www.geiwohuo.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://www.geiwohuo.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||www.geiwohuo.com"
+        }
+    },
+    {
+        "id": 9,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://agentseller.temu.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://agentseller.temu.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||agentseller.temu.com"
+        }
+    },
+    {
+        "id": 10,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://oms.goodcang.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://oms.goodcang.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||oms.goodcang.com"
+        }
+    },
+    {
+        "id": 11,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://sellerhub.shein.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://sellerhub.shein.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||sellerhub.shein.com"
+        }
+    },
+    {
+        "id": 12,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "http://xc.rqlis.com:888"
+                },
+                {
+                    "header": "Host",
+                    "operation": "set",
+                    "value": "xc.rqlis.com:888"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||xc.rqlis.com"
+        }
+    },
+    {
+        "id": 13,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://oms.xlwms.com"
+                },
+                {
+                    "header": "Host",
+                    "operation": "set",
+                    "value": "oms.xlwms.com"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||oms.xlwms.com"
+        }
+    },
+    {
+        "id": 14,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://agentseller-us.temu.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://agentseller-us.temu.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||agentseller-us.temu.com"
+        }
+    },
+    {
+        "id": 15,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Origin",
+                    "operation": "set",
+                    "value": "https://agentseller-eu.temu.com/"
+                },
+                {
+                    "header": "Referer",
+                    "operation": "set",
+                    "value": "https://agentseller-eu.temu.com/"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||agentseller-eu.temu.com"
+        }
+    },
+    {
+        "id": 16,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                {
+                    "header": "Sec-Fetch-Site",
+                    "operation": "set",
+                    "value": "same-origin"
+                },
+                {
+                    "header": "Sec-Fetch-Mode",
+                    "operation": "set",
+                    "value": "navigate"
+                },
+                {
+                    "header": "Sec-Fetch-Dest",
+                    "operation": "set",
+                    "value": "document"
+                }
+            ]
+        },
+        "condition": {
+            "urlFilter": "||zh-tools.usps.com"
+        }
+    }
+]
